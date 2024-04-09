@@ -12,7 +12,7 @@ class Myint(int):
     Methods:
        __init__(self, num)
        __eq__(self, other)
-       __ne_-self(self, other)
+       __ne__self(self, other)
     """
     def __init__(self, num):
         """initializes num"""
