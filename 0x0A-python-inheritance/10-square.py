@@ -17,7 +17,6 @@ with instantiation of private attribute size, validated by superclass
 Rectangle = __import__('9-rectangle').Rectangle
 
 
-
 class Square(Rectangle):
     """inherits from Rectangle, who inherits from BaseGeometry
     methods:
