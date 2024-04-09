@@ -2,11 +2,10 @@
 """
 Module 5-base_geometry
 
-Contains empty class Basegeometry
-""""
+Contains empty class BaseGeometry
+"""
 
 
 class BaseGeometry:
-    """Empty class"""
+    """empty class"""
     pass
-
