@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module 12-student
+Module 10-student
 
 Contains class Student
 that initializes public instance attributes first_name, last_name, and age,
@@ -27,7 +27,7 @@ class Student():
         self.last_name = last_name
         self.age = age
 
-    def to_json(self, attrs=Nome):
+    def to_json(self, attrs=None):
          """
         Returns dictionary description with simple data structure
         (list, dictionary, dictionary, string)
