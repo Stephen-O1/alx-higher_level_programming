@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 """
-Define Class Sate
+Defines class State
 """
 
-
 from sqlalchemy import Column, Integer, String
-from sqlalchemy.exit.declarative import declarative_base
+from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
 
